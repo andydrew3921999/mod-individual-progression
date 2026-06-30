@@ -64,7 +64,6 @@ public:
 
         const TeamId playerTeamId = player->GetBgTeamId();
         const uint8 playerLevel = player->GetLevel();
-        
         uint8_t rewardQuantity = 1;
 
         if (playerTeamId == winner)
